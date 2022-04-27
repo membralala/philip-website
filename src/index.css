@@ -35,7 +35,7 @@ html {
 }
 
 h2 {
-    @apply hover:text-red text-blue text-xl font-anom;
+    @apply text-blue text-xl font-anom;
 }
 
 

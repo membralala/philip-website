@@ -11,7 +11,7 @@ export default function App(props) {
         <Header title={title} />
         <Navbar title={title} />
 
-        <div className="font-jets text-sm hyphens text-black font-extralight
+        <div className="font-jets text-sm hyphens text-blue font-extralight
          leading-relaxed">
           {props.content}
         </div>

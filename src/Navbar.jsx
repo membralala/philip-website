@@ -3,7 +3,7 @@ import { ArrowDownCircle, ArrowUpCircle } from 'react-feather';
 
 export default function Navbar(props) {
 
-  const navElements = ["About", "Music", "Code", "Projects"];
+  const navElements = ["About", "Works", "Code", "Projects"];
 
   const hideMenu = () => {
     document.getElementById("navbar-items").classList.add("h-0");
@@ -21,12 +21,12 @@ export default function Navbar(props) {
 
   return (
     props.title !== "" ?
-      <nav id="navbar" className="font-anom font-bold text-blue text-xl tracking-tighter text-center 
+      <nav id="navbar" className="font-anom font-bold text-blue text-xl text-center 
       border-b-2 border-red
       sm:text-left sm:border-none sm:w-4/5 
       relative left-0 right-0 ml-auto mr-auto mb-20
       ">
-        <ul id="navbar-items" className="grid grid-cols-1 sm:flex overflow-y-hidden transition-all h-0">
+        <ul id="navbar-items" className="grid grid-cols-1 sm:flex overflow-y-hidden transition-all h-0 sm:h-auto">
           {navElements.map((elem) => (
             <li key={elem} className={`inline mr-4 ml-4 sm:hover:text-red ${elem === props.title ? "underline" : ""}`} >
               <Link to={`/${elem.toLowerCase()}`} >
