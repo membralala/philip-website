@@ -29,7 +29,7 @@ export default function Schmutz() {
             Ableton Live and Max/Msp. Compositional form is generated with Python.
           </p>
           <p className="mb-4">
-            <span className="italic">Schmutz</span> is the second composition of a series 
+            <span className="italic">Schmutz</span> is the second composition of a series
             named <span className="text-red italic">The Progress Report</span>.
           </p>
 

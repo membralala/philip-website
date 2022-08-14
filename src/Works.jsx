@@ -1,12 +1,13 @@
 import { ChevronRight, ChevronLeft } from "react-feather";
 import AliceBob from "./Works/AliceBob";
 import Schmutz from "./Works/Schmutz";
+import Identity from "./Works/Identity";
 import { useState } from "react";
 
 export default function Works() {
-
-  const works = [<AliceBob/ >, <Schmutz/ >];
+  const works = [<AliceBob/ >, <Schmutz/ >, <Identity />];
   let [selector, setSelector] = useState(0);
+  
 
   const nextWork = () => {
     setSelector((selector + 1) % works.length);
