@@ -14,7 +14,7 @@ export default function About() {
         hand and his curiosity towards generative structures an the other hand. Therefore 
         his music follows a minimalistic, pulse-based approach with self-similar rhythms 
         and slowly developing ambience. 
-        Visually Philip tries to ceep the narrative capabilities of the 'classic' cinematic film,
+        Visually Philip tries to keep the narrative capabilities of the 'classic' cinematic film,
         but to treat video and audio as equal layers of time-based structures. Therefore he 
         apllies same compositional techniques on film and music, making them a unit, that 
         does not work without each other. 

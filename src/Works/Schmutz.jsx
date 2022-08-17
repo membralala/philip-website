@@ -1,3 +1,13 @@
+import S01 from "../images/S01.jpg";
+import S02 from "../images/S02.jpg";
+import S03 from "../images/S03.jpg";
+import S04 from "../images/S04.jpg";
+import S05 from "../images/S05.jpg";
+import S06 from "../images/S06.jpg";
+import ImgPrev from "../ImgPrev";
+
+
+
 export default function Schmutz() {
   return (
     <div>
@@ -34,6 +44,15 @@ export default function Schmutz() {
           </p>
 
         </div>
+      </div>
+
+      <div className="mb-4 grid grid-cols-2 gap-1">
+        <ImgPrev src={S01} className="col-span-2"/>
+        <ImgPrev src={S02}/>
+        <ImgPrev src={S03}/>
+        <ImgPrev src={S04}/>
+        <ImgPrev src={S05}/>
+        <ImgPrev src={S06} className="col-span-2"/>
       </div>
     </div>
   )

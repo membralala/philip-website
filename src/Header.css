@@ -1,9 +1,0 @@
-#header {
-    animation-name: headerIn;
-    animation-duration: 0.5s;
-}
-
-@keyframes headerIn {
-    0% {transform: translateX(-100%);}
-    100% {transform: translateX(0);}
-}

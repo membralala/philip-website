@@ -1,3 +1,14 @@
+import AB01 from "../images/AB_01.jpg"; 
+import AB02 from "../images/AB_02.jpg"; 
+import AB03 from "../images/AB_03.jpg"; 
+import AB04 from "../images/AB_04.jpg"; 
+import AB05 from "../images/AB_05.jpg"; 
+import AB06 from "../images/AB_06.jpg"; 
+import AB07 from "../images/AB_07.jpg"; 
+import AB08 from "../images/AB_08.jpg"; 
+import ImgPrev from "../ImgPrev";
+
+
 export default function AliceBob() {
   return (
     <div>
@@ -23,7 +34,7 @@ export default function AliceBob() {
             the existential crisis of an A.I., that mimics human attributes and
             therefore questions its sense of live in a human manner. It finally
             decides to 'regress' to its mechanical roots.
-          </p>
+          </p> 
           <p className="mb-4">
             The audiovisual composition was realised with a wide span of software
             including Premiere, After Effects, Cinema 4D and Processing for the video,
@@ -34,6 +45,16 @@ export default function AliceBob() {
             composition of a series named <span className="text-red italic">The Progress Report</span>.
           </p>
         </div>
+      </div>
+      <div className="mb-4 grid grid-cols-6 gap-1">
+        <ImgPrev src={AB01} className="col-span-6"/>
+        <ImgPrev src={AB05} className="col-span-6"/>
+        <ImgPrev src={AB06} className="col-span-2"/>
+        <ImgPrev src={AB08} className="col-span-2"/>
+        <ImgPrev src={AB07} className="col-span-2"/>
+        <ImgPrev src={AB04} className="col-span-6"/>
+        <ImgPrev src={AB02} className="col-span-3"/>
+        <ImgPrev src={AB03} className="col-span-3"/>
       </div>
     </div>
   )

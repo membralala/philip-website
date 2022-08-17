@@ -38,5 +38,10 @@ h2 {
     @apply text-blue text-xl font-anom;
 }
 
+.hover-img {
+    @apply hover:scale-[102%] 
+    transition-all duration-500 cursor-zoom-in;
+}
+
 
 @tailwind utilities;
