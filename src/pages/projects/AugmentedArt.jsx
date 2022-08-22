@@ -23,8 +23,8 @@ export default function AugmentedArt() {
             cityscaper GmbH from Aachen to develop the app <span className="italic">adARt</span>.
             cityscaper provided the know-how to develop the app, while Skulpturenmuseum Marl
             digitalized their collection of artworks and provided them as content 
-            for the app. Anastasija, Philip and the museum organized the exhibition 
-            <span className="italic">Erweiterte Welten － urbane Medienkunst in Marl</span>, 
+            for the app. Anastasija, Philip and the museum organized the 
+            exhibition <span className="italic">Erweiterte Welten － urbane Medienkunst in Marl</span>, 
             where they showed media art of young artists from NRW. The whole exhibition is 
             virtual and can be seen through the <span className="italic">adARt</span> app.
             As proposed it uses advertisments in public spaces in Marl as exhibition spaces. 

@@ -1,8 +1,9 @@
-import ID01 from "../../images/ID01.jpg"
-import ID02 from "../../images/ID02.jpg"
-import ID03 from "../../images/ID03.jpg"
-import ID04 from "../../images/ID04.jpg"
-import ImgPrev from "../../components/ImgPrev"
+import ID01 from "../../images/ID01.jpg";
+import ID02 from "../../images/ID02.jpg";
+import ID03 from "../../images/ID03.jpg";
+import ID04 from "../../images/ID04.jpg";
+import ImgPrev from "../../components/ImgPrev";
+import ExtLink from "../../components/ExtLink";
 
 
 export default function Identity() {
@@ -20,7 +21,7 @@ export default function Identity() {
         <div className="mb-12">
           <h3 className="text-red font-bold text-3xl mb-2">identity (2018)</h3>
           <p className="text-red text-md leading-normal">Fixed Media Electronics (2-Channel), 1-Channel Video</p>
-          <p className="text-red text-md leading-normal">Video by: <a href="/" className="italic hover:text-blue underline font-medium">Anastasija Delidova</a></p>
+          <p className="text-red text-md leading-normal">Video by: <ExtLink to="https://vimeo.com/search?q=anastasija%20delidova" className="italic hover:text-blue underline font-medium">Anastasija Delidova</ExtLink></p>
         </div>
         <div className="text-blue text-content">
           <p className="mb-2">

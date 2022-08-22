@@ -9,6 +9,7 @@ import DW07 from "../../images/DW_07.jpg";
 import DW08 from "../../images/DW_08.jpg";
 
 import ImgPrev from "../../components/ImgPrev";
+import ExtLink from "../../components/ExtLink";
 
 export default function DunklerWald() {
   return (
@@ -18,9 +19,9 @@ export default function DunklerWald() {
         <div className="mb-12">
           <h3 className="text-red font-bold text-3xl mb-2">Dunkler Wald (2019)</h3>
           <p className="text-red text-md leading-normal">Violin, Fixed Media Electronics (8-Channel), Fulldome Video</p>
-          <p className="text-red text-md leading-normal">Composition: <a href="/" className="italic hover:text-blue underline font-medium">Florian Hartlieb</a></p>
-          <p className="text-red text-md leading-normal">Performed by: <a href="/" className="italic hover:text-blue underline font-medium">Julia Brüssel</a></p>
-          <p className="text-red text-md leading-normal">Video : <a href="/" className="italic hover:text-blue underline font-medium">Anastasija Delidova</a> & Philip Popien</p>
+          <p className="text-red text-md leading-normal">Composition: <ExtLink to="http://www.florian-hartlieb.de/" className="underline hover:text-blue italic font-medium">Florian Hartlieb</ExtLink></p>
+          <p className="text-red text-md leading-normal">Performed by: <ExtLink to="https://de.wikipedia.org/wiki/Julia_Br%C3%BCssel" className="italic hover:text-blue underline font-medium">Julia Brüssel</ExtLink></p>
+          <p className="text-red text-md leading-normal">Video : <ExtLink to="https://vimeo.com/search?q=anastasija%20delidova" title="https://vimeo.com/search?q=anastasija%20delidova" className="italic hover:text-blue underline font-medium">Anastasija Delidova</ExtLink> & Philip Popien</p>
         </div>
         <div className="text-blue text-content">
           <p className="mb-4"><span className="italic">Dunkler Wald</span> is 
@@ -41,8 +42,8 @@ export default function DunklerWald() {
             Python scripts.
           </p>
           <p className="mb-4"><span className="italic">Dunkler Wald</span> was 
-          presented during <a href="https://divefest.de/eindrucke-vom-dive-festival-2019/" target="_blank" rel="noopener noreferrer"
-          className="italic hover:text-red underline font-medium">DIVE festival 2019</a> at <span className="text-red italic">Planetarium Bochum</span>.
+          presented during <ExtLink to="https://divefest.de/eindrucke-vom-dive-festival-2019/" title="https://divefest.de/eindrucke-vom-dive-festival-2019/"
+          className="italic hover:text-red underline font-medium">DIVE festival 2019</ExtLink> at <span className="text-red italic">Planetarium Bochum</span>.
           </p>
         </div>
       </div>

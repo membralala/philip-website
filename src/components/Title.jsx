@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { Settings } from "react-feather";
 
 export default function Title({title}) {
   return (
