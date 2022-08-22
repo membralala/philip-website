@@ -1,6 +1,6 @@
-import SW01 from "../images/SW01.jpg";
-import SW02 from "../images/SW02.jpg";
-import ImgPrev from "../ImgPrev";
+import SW01 from "../../images/SW01.jpg";
+import SW02 from "../../images/SW02.jpg";
+import ImgPrev from "../../components/ImgPrev";
 
 export default function SecretWindow() {
   return (
@@ -16,10 +16,10 @@ export default function SecretWindow() {
 
       <div>
         <div className="mb-12">
-          <h3 className="text-red font-anom text-xl mb-2">Secret Window inside a fragile structured Mind (2017)</h3>
+          <h3 className="text-red font-bold text-3xl mb-2">Secret Window inside a fragile structured Mind (2017)</h3>
           <p className="text-red text-md leading-normal">Fixed Media Electronics (Stereo), 1-Channel Video</p>
         </div>
-        <div className="text-blue">
+        <div className="text-blue text-content">
           <p className="mb-4"><span className="italic">Secret Window inside a fragile structured Mind</span> is
             is an audio-visual composition, which tries to visualize the complexity of a thought process. 
             On the technical side it uses generative structures and self-regulating sequencers and therefore

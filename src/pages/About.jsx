@@ -1,7 +1,10 @@
+import Navbar from "../components/Navbar";
+
 export default function About() {
   return (
-    <div>
-      <p className="mb-4">
+    <>
+      <Navbar title="About" />
+      <p className="mb-4 text-content">
         Philip Popien is a german based composer and a creative coder with a deep interest in 
         generative, audio-visual arts. Born in 1995 he has studied composition 
         at <span className="font-medium">Folkwang University of Arts</span> with 
@@ -9,7 +12,7 @@ export default function About() {
         Since 2021 he studies Computer Science 
         at <span className="font-medium">Technical University Dortmund</span>. 
       </p>
-      <p className="mb-4">
+      <p className="mb-4 text-content">
         On the musical side Philip is influenced by electronic dance music on the one 
         hand and his curiosity towards generative structures an the other hand. Therefore 
         his music follows a minimalistic, pulse-based approach with self-similar rhythms 
@@ -19,12 +22,12 @@ export default function About() {
         apllies same compositional techniques on film and music, making them a unit, that 
         does not work without each other. 
       </p>
-      <p className="mb-4">
-        Together with media-artist <span className="text-red">Anastasija Delidova</span> , Philip Popien forms the 
-        duo <span className="font-medium italic underline hover:text-red">Kol&shy;lek&shy;tiv Zwei&shy;und&shy;vier&shy;zig</span>. 
+      <p className="mb-4 text-content">
+        Together with media-artist <span className="text-red">Anastasija Delidova</span>, Philip Popien forms the 
+        duo <span className="font-medium italic underline hover:text-red">Kol&shy;lek&shy;tiv 42</span>. 
         Since 2019 they realised a span of projects including 
         audio-visual installations, live-performances, projection mappings and fulldome videos.
       </p>
-    </div>
+    </>
   )
 }

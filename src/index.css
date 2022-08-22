@@ -43,5 +43,9 @@ h2 {
     transition-all duration-500 cursor-zoom-in;
 }
 
+.text-content {
+    @apply tracking-tight;
+}
+
 
 @tailwind utilities;

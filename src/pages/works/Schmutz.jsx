@@ -1,10 +1,10 @@
-import S01 from "../images/S01.jpg";
-import S02 from "../images/S02.jpg";
-import S03 from "../images/S03.jpg";
-import S04 from "../images/S04.jpg";
-import S05 from "../images/S05.jpg";
-import S06 from "../images/S06.jpg";
-import ImgPrev from "../ImgPrev";
+import S01 from "../../images/S01.jpg";
+import S02 from "../../images/S02.jpg";
+import S03 from "../../images/S03.jpg";
+import S04 from "../../images/S04.jpg";
+import S05 from "../../images/S05.jpg";
+import S06 from "../../images/S06.jpg";
+import ImgPrev from "../../components/ImgPrev";
 
 
 
@@ -21,10 +21,10 @@ export default function Schmutz() {
 
       <div>
         <div className="mb-12">
-          <h3 className="text-red font-anom text-xl mb-2">Schmutz (2020)</h3>
+          <h3 className="text-red font-bold text-3xl mb-2">Schmutz (2020)</h3>
           <p className="text-red text-md leading-normal">Fixed Media Electronics (4-Channel), 1-Channel Video</p>
         </div>
-        <div className="text-blue">
+        <div className="text-blue text-content">
           <p className="mb-2">
             WARNING: This video contains fast flashing images!
           </p>

@@ -1,12 +1,12 @@
-import AB01 from "../images/AB_01.jpg"; 
-import AB02 from "../images/AB_02.jpg"; 
-import AB03 from "../images/AB_03.jpg"; 
-import AB04 from "../images/AB_04.jpg"; 
-import AB05 from "../images/AB_05.jpg"; 
-import AB06 from "../images/AB_06.jpg"; 
-import AB07 from "../images/AB_07.jpg"; 
-import AB08 from "../images/AB_08.jpg"; 
-import ImgPrev from "../ImgPrev";
+import AB01 from "../../images/AB_01.jpg"; 
+import AB02 from "../../images/AB_02.jpg"; 
+import AB03 from "../../images/AB_03.jpg"; 
+import AB04 from "../../images/AB_04.jpg"; 
+import AB05 from "../../images/AB_05.jpg"; 
+import AB06 from "../../images/AB_06.jpg"; 
+import AB07 from "../../images/AB_07.jpg"; 
+import AB08 from "../../images/AB_08.jpg"; 
+import ImgPrev from "../../components/ImgPrev";
 
 
 export default function AliceBob() {
@@ -23,11 +23,11 @@ export default function AliceBob() {
 
       <div>
         <div className="mb-12">
-          <h3 className="text-red font-anom text-xl mb-2">Alice & Bob (2020)</h3>
-          <p className="text-red text-md leading-normal">Piano, Fixed Media Electronics (Stereo), 2-Channel Video</p>
-          <p className="text-red text-md leading-normal">Performed by: <a href="/" className="italic hover:text-blue underline font-medium">Mirela Zhulali</a></p>
+          <h3 className="text-red text-3xl font-bold mb-2">Alice & Bob (2020)</h3>
+          <p className="text-red leading-normal">Piano, Fixed Media Electronics (Stereo), 2-Channel Video</p>
+          <p className="text-red leading-normal">Performed by: <a href="/" className="italic hover:text-blue underline font-medium">Mirela Zhulali</a></p>
         </div>
-        <div className="text-blue">
+        <div className="text-blue text-content">
           <p className="mb-4"><span className="italic">Alice & Bob</span> is
             a multimedial composition for player piano and
             piano player, fixed media electronic and 2-channel-video. It is about

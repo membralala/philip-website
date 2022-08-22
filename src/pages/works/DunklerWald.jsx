@@ -1,26 +1,28 @@
-import DW00 from "../images/DW_00.jpg";
-import DW01 from "../images/DW_01.jpg";
-import DW02 from "../images/DW_02.jpg";
-import DW03 from "../images/DW_03.jpg";
-import DW04 from "../images/DW_04.jpg";
-import DW05 from "../images/DW_05.jpg";
-import DW06 from "../images/DW_06.jpg";
+import DW00 from "../../images/DW_00.jpg";
+import DW01 from "../../images/DW_01.jpg";
+import DW02 from "../../images/DW_02.jpg";
+import DW03 from "../../images/DW_03.jpg";
+import DW04 from "../../images/DW_04.jpg";
+import DW05 from "../../images/DW_05.jpg";
+import DW06 from "../../images/DW_06.jpg";
+import DW07 from "../../images/DW_07.jpg";
+import DW08 from "../../images/DW_08.jpg";
 
-import ImgPrev from "../ImgPrev";
+import ImgPrev from "../../components/ImgPrev";
 
 export default function DunklerWald() {
   return (
     <div>
-      <img src={DW00} alt="" className="mb-12"/>
+      <ImgPrev src={DW08} className="mb-12"/>
       <div>
         <div className="mb-12">
-          <h3 className="text-red font-anom text-xl mb-2">Dunkler Wald (2019)</h3>
+          <h3 className="text-red font-bold text-3xl mb-2">Dunkler Wald (2019)</h3>
           <p className="text-red text-md leading-normal">Violin, Fixed Media Electronics (8-Channel), Fulldome Video</p>
           <p className="text-red text-md leading-normal">Composition: <a href="/" className="italic hover:text-blue underline font-medium">Florian Hartlieb</a></p>
           <p className="text-red text-md leading-normal">Performed by: <a href="/" className="italic hover:text-blue underline font-medium">Julia Brüssel</a></p>
           <p className="text-red text-md leading-normal">Video : <a href="/" className="italic hover:text-blue underline font-medium">Anastasija Delidova</a> & Philip Popien</p>
         </div>
-        <div className="text-blue">
+        <div className="text-blue text-content">
           <p className="mb-4"><span className="italic">Dunkler Wald</span> is 
           an audiovisual dystopia in 4 scenes. Abstracted violin and natural 
           sounds create a three-dimensional sound space that represents a 
@@ -45,12 +47,14 @@ export default function DunklerWald() {
         </div>
       </div>
       <div className="mb-4 grid grid-cols-3 gap-1">
+        <ImgPrev src={DW00} className="col-span-3"/>
         <ImgPrev src={DW01}/>
         <ImgPrev src={DW02}/>
         <ImgPrev src={DW03}/>
         <ImgPrev src={DW04}/>
         <ImgPrev src={DW05}/>
         <ImgPrev src={DW06}/>
+        <ImgPrev src={DW07} className="col-span-3"/>
       </div>
     </div>
   );
