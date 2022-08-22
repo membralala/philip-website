@@ -1,4 +1,3 @@
-import { useEffect } from 'react';
 import { ChevronDown, ChevronUp } from 'react-feather';
 import { Link } from 'react-router-dom';
 import Title from './Title';
