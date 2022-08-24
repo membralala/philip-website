@@ -22,7 +22,7 @@ export function Projects() {
 
 export function ProjectsList() {
   const [projectsSel, setProjectsSel] = useState(orderedProjects);
-  let tags = [...new Set(projectsSel.map((elem) => elem.tags).flat())].sort();
+  let tags = [...new Set(orderedProjects.map((elem) => elem.tags).flat())].sort();
   const [tagsSel, setTagsSel] = useState([]);
 
   let years = projectsSel.map((elem) => elem.year);
@@ -44,6 +44,10 @@ export function ProjectsList() {
     setProjectsSel(projectsWithTags);
   }, [tagsSel])
 
+  const tagIsActive = (tag) => {
+    return projectsSel.map(elem => elem.tags).flat().indexOf(tag) !== -1
+  }
+
   return (
     <>
       <div id="tag-filters" className="mb-4 relative -top-16">
@@ -51,22 +55,24 @@ export function ProjectsList() {
           tags.map((tag) => (
             <button
               key={tag}
-              className="inline-block mr-2 px-2 my-1 tracking-tighter text-white text-sm bg-blue rounded-full"
+              className={`inline-block mr-2 px-2 my-1 tracking-tighter text-white text-sm rounded-full
+              ${tagIsActive(tag)?" bg-blue":" bg-stone-500"}`}              
               onClick={(event) => {
                 if (event.target.getAttribute("data-toggle-state") === "true") {
                   setTagsSel([...tagsSel.filter(x => x !== tag)]);
                   event.target.setAttribute("data-toggle-state", "false");
                   event.target.classList.remove("bg-red");
-                  event.target.classList.add("bg-blue"); 
+                  event.target.classList.add(`${tagIsActive(tag)?"bg-blue":"bg-stone-500"}`); 
                 }
                 else {
                   setTagsSel([...tagsSel, tag]);
                   event.target.setAttribute("data-toggle-state", "true");
-                  event.target.classList.remove("bg-blue"); 
+                  event.target.classList.remove(`${tagIsActive(tag)?"bg-blue":"bg-stone-500"}`); 
                   event.target.classList.add("bg-red");
                 } 
               }}
               data-toggle-state={false}
+              disabled={!tagIsActive(tag)}
             >
               {tag}
             </button>
