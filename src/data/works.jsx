@@ -3,6 +3,7 @@ import DunklerWald from "../pages/works/DunklerWald";
 import Identity from "../pages/works/Identity";
 import OrganicPatterns from "../pages/works/OrganicPatterns";
 import Schmutz from "../pages/works/Schmutz";
+import Schneerose from "../pages/works/Schneerose";
 import SecretWindow from "../pages/works/SecretWindow";
 
 export const works = [
@@ -96,5 +97,19 @@ export const works = [
       "composition", 
       "electronics",
     ],
+  },
+  {
+    "id": 7,
+    "title": "Schneerose",
+    "slug": "schneerose",
+    "year": 2022,
+    "nr": 1,
+    "desc": "A glimpse of a suppressed memory.",
+    "component": <Schneerose />,
+    "tags": [
+      "composition",
+      "instrumental",
+      "electronics",
+    ]
   }
 ]

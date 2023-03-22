@@ -19,7 +19,7 @@ export default function OrganicPatterns() {
         </div>
         <div className="text-blue text-content">
           <p className="mb-2">
-            Due to deep sinusoid frequencies, headphones are highly recommended. 
+            Headphones are highly recommended. 
           </p>
           <p className="mb-4">
             <span className="italic">Organic Patterns</span> is a live performance for generative 

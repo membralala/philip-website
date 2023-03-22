@@ -25,7 +25,7 @@ export default function Identity() {
         </div>
         <div className="text-blue text-content">
           <p className="mb-2">
-            Due to deep sinusoid frequencies, headphones are highly recommended. 
+            Headphones are highly recommended. 
           </p>
           <p className="mb-4">
             <span className="italic">identity</span> is a short audio-visual piece,
