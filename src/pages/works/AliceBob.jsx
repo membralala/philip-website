@@ -26,7 +26,14 @@ export default function AliceBob() {
         <div className="mb-12">
           <h3 className="text-red text-3xl font-bold mb-2">Alice & Bob (2020)</h3>
           <p className="text-red leading-normal">Piano, Fixed Media Electronics (Stereo), 2-Channel Video</p>
-          <p className="text-red leading-normal">Performed by: <ExtLink enabled={false} className="italic hover:text-blue underline font-medium">Mirela Zhulali</ExtLink></p>
+          <p className="text-red leading-normal">Performed by: 
+            <ExtLink 
+              enabled={true} 
+              to="https://www.youtube.com/channel/UCjw6ipKDIUwzSv3HF5A3NHw/videos?app=desktop&view_as=subscriber&fbclid=IwAR2QRLglwYASvROwVZRumm3RivI7U3qz51ouq_1GMgh3J3xtBl9ddUwyD9A" 
+              className="italic hover:text-blue underline font-medium">
+                Mirela Zhulali
+            </ExtLink>
+          </p>
         </div>
         <div className="text-blue text-content">
           <p className="mb-4"><span className="italic">Alice & Bob</span> is

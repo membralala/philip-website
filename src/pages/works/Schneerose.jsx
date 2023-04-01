@@ -12,7 +12,14 @@ export default function Schneerose() {
         <div className="mb-12">
           <h3 className="text-red font-bold text-3xl mb-2">Schneerose (2022)</h3>
           <p className="text-red text-md leading-normal">Piano, Fixed Media Electronics (2-Channel)</p>
-          <p className="text-red leading-normal">Performed by: <ExtLink enabled={false} className="italic hover:text-blue underline font-medium">Mirela Zhulali</ExtLink></p>
+          <p className="text-red leading-normal">Performed by: 
+            <ExtLink 
+              enabled={true} 
+              to="https://www.youtube.com/channel/UCjw6ipKDIUwzSv3HF5A3NHw/videos?app=desktop&view_as=subscriber&fbclid=IwAR2QRLglwYASvROwVZRumm3RivI7U3qz51ouq_1GMgh3J3xtBl9ddUwyD9A"
+              className="italic hover:text-blue underline font-medium">
+                Mirela Zhulali
+            </ExtLink>
+          </p>
         </div>
         <div className="text-blue text-content">
           <p className="mb-4">
