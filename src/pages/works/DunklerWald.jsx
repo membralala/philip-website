@@ -21,7 +21,7 @@ export default function DunklerWald() {
           <p className="text-red text-md leading-normal">Violin, Fixed Media Electronics (8-Channel), Fulldome Video</p>
           <p className="text-red text-md leading-normal">Composition: <ExtLink to="http://www.florian-hartlieb.de/" className="underline hover:text-blue italic font-medium">Florian Hartlieb</ExtLink></p>
           <p className="text-red text-md leading-normal">Performed by: <ExtLink to="https://de.wikipedia.org/wiki/Julia_Br%C3%BCssel" className="italic hover:text-blue underline font-medium">Julia Brüssel</ExtLink></p>
-          <p className="text-red text-md leading-normal">Video : <ExtLink to="https://vimeo.com/search?q=anastasija%20delidova" title="https://vimeo.com/search?q=anastasija%20delidova" className="italic hover:text-blue underline font-medium">Anastasija Delidova</ExtLink> & Philip Popien</p>
+          <p className="text-red text-md leading-normal">Video : <ExtLink to="https://atelierweb.site/mitglieder/anastasija-delidova/" title="https://vimeo.com/search?q=anastasija%20delidova" className="italic hover:text-blue underline font-medium">Anastasija Delidova</ExtLink> & Philip Popien</p>
         </div>
         <div className="text-blue text-content">
           <p className="mb-4"><span className="italic">Dunkler Wald</span> is 

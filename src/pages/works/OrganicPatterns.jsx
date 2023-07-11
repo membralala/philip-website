@@ -15,7 +15,7 @@ export default function OrganicPatterns() {
         <div className="mb-12">
           <h3 className="text-red font-bold text-3xl mb-2">Organic Patterns (2018)</h3>
           <p className="text-red text-md leading-normal">Live Electronics (2-Channel), 1-Channel Live Video</p>
-          <p className="text-red text-md leading-normal">Video by: <ExtLink to="https://vimeo.com/search?q=anastasija%20delidova" className="italic hover:text-blue underline font-medium">Anastasija Delidova</ExtLink></p>
+          <p className="text-red text-md leading-normal">Video by: <ExtLink to="https://atelierweb.site/mitglieder/anastasija-delidova/" className="italic hover:text-blue underline font-medium">Anastasija Delidova</ExtLink></p>
         </div>
         <div className="text-blue text-content">
           <p className="mb-2">
