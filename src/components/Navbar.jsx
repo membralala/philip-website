@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import Title from './Title';
 
 export default function Navbar({ title }) {
-  const navElements = ["About", "Works", "Projects",];
+  const navElements = ["About", "Works", "Projects", "Upcoming",];
 
   const hideMenu = () => {
     document.getElementById("navbar-items").classList.add("h-0");
