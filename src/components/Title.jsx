@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 export default function Title({title}) {
   return (
     <header className="relative flex w-full">
-      <div className="text-red font-anom font-bold text-[46px] leading-[0.9em] w-[150px] h-[80px] border-r-[2px] border-black">
+      <div className="text-red font-anom font-bold text-[46px] leading-[0.9em] tracking-tighter w-[150px] h-[80px] border-r-[2px] border-black">
         <Link to="/about">Philip Popien</Link>
       </div>
       <div className="relative -top-1  w-full overflow-hidden h-24">
