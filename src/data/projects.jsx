@@ -18,7 +18,6 @@ export const projects = [
     "desc": "A mixed reality project to replace advertisements with art.",
     "component": <AugmentedArt />,
     "tags": [
-      "structural",
       "app",
       "media",
       "kollektiv 42",
@@ -33,7 +32,7 @@ export const projects = [
     "desc": "A composition project to teach students modular synthesis and electronic composition.",
     "component": <PatchingAlice />,
     "tags": [
-      "structural",
+      "workshop",
       "composition",
       "interdisciplinary",
     ],
@@ -62,7 +61,7 @@ export const projects = [
     "tags": [
       "composition",
       "interdisciplinary",
-      "structural",
+      "workshop",
     ],
   },
   {
@@ -88,7 +87,7 @@ export const projects = [
     "component": <RemixRuhr21 /> ,
     "tags": [
       "music",
-      "structural"
+      "workshop"
     ],
   },
   {
@@ -101,7 +100,7 @@ export const projects = [
     "component": <RemixRuhr20 />,
     "tags": [
       "music",
-      "structural"
+      "workshop"
     ],
   },
   {
