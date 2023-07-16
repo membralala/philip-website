@@ -30,7 +30,7 @@ export default function Navbar({ title }) {
       relative left-0 right-0 ml-auto mr-auto mb-20
       ">
         <ul id="navbar-items"
-          className="grid grid-cols-1 sm:flex overflow-y-hidden transition-all h-0 sm:h-auto">
+          className="grid grid-cols-1 sm:flex overflow-y-hidden sm:overflow-y-visible transition-all h-0 sm:h-auto">
           {navElements.map((elem) => (
             <li
               key={elem}
