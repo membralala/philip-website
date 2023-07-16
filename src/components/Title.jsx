@@ -18,7 +18,7 @@ export default function Title({title}) {
           </div>
         </> : 
         <>
-           <div className="sm:relative w-full text-center sm:text-left text-red font-anom font-bold text-[46px] leading-[0.9em] tracking-tighter sm:w-[150px] h-[80px]">
+           <div className="sm:relative w-full mb-4 text-center sm:text-left text-red font-anom font-bold text-[46px] leading-[0.9em] tracking-tighter sm:w-[150px] h-[80px]">
             <Link to="/about">Philip Popien</Link>
           </div>
         </>
