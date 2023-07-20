@@ -26,7 +26,7 @@ export default function Schneerose() {
             <span className="italic">Schneerose</span> is ment to be a musical interpretation of a trauma.
             Therefore it is inspired by the process of a suppressed memory's reconstruction.
             Also its musical material is completely based on the Albanian folk song "Lule Bore", which
-            can be literally translated as something like "rose out of snow". However, just very rarely 
+            can be literally translated to "rose out of snow". However, just very rarely 
             a small glimpse of the original ballad occurs in <span className="italic">Schneerose</span> as 
             nostalgic phrases. The composition, which is influenced by spectralism, tries to focus on 
             a dramaturgic approach rather than on a formal structure of musical parts. The fixed media 

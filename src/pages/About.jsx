@@ -1,4 +1,5 @@
 import Navbar from "../components/Navbar";
+import ExtLink from "../components/ExtLink";
 
 export default function About() {
   return (
@@ -23,8 +24,9 @@ export default function About() {
         does not work without each other. 
       </p>
       <p className="mb-4 text-content">
-        Together with media-artist <span className="text-red">Anastasija Delidova</span>, Philip Popien forms the 
-        duo <span className="font-medium italic underline hover:text-red">Kol&shy;lek&shy;tiv 42</span>. 
+        Together with media-artist <ExtLink to="https://atelierweb.site/mitglieder/anastasija-delidova/" className="italic hover:text-blue underline font-medium text-red text-md leading-normal">Anastasija Delidova</ExtLink>, 
+        Philip Popien forms the 
+        duo <span className="font-medium">Kol&shy;lek&shy;tiv 42</span>. 
         Since 2019 they realised a span of projects including 
         audio-visual installations, live-performances, projection mappings and fulldome videos.
       </p>
