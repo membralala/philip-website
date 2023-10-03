@@ -18,6 +18,7 @@ export default function Upcoming() {
       <div>
         <ul className="text-blue mb-24">
           { 
+            orderedUpcoming.length < 0 ?
             orderedUpcoming.map(entry => (
               <li key={entry.id.toString()} className="mb-8">
                 <div className="font-bold">
@@ -67,6 +68,7 @@ export default function Upcoming() {
                 </div>
               </li>
             ))
+            : <div className="italic">Currently no events.</div>
           }
         </ul>
       </div>
