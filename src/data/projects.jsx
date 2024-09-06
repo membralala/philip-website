@@ -6,6 +6,10 @@ import RemixRuhr20 from "../pages/projects/RemixRuhr20";
 import RemixRuhr21 from "../pages/projects/RemixRuhr21"; 
 import WarRequiem from "../pages/projects/WarRequiem"; 
 import DivePanorama from "../pages/projects/DivePanorama";
+import RemixRuhr22 from "../pages/projects/RemixRuhr22";
+import RemixRuhr23 from "../pages/projects/RemixRuhr23";
+import Parkart from "../pages/projects/Parkart";
+import Interact from "../pages/projects/Interact";
 
 
 export const projects = [
@@ -116,4 +120,57 @@ export const projects = [
       "media",
     ],
   },
+  {
+    "id": 9,
+    "title": "REMIX.ruhr 2022",
+    "slug": "remix-ruhr-2022",
+    "year": 2022,
+    "nr": 2,
+    "desc": "A remix submit with students.",
+    "component": <RemixRuhr22 />,
+    "tags": [
+      "music",
+      "workshop"
+    ],
+  },
+  {
+    "id": 10,
+    "title": "Inter_Act",
+    "slug": "inter_act",
+    "year": 2023,
+    "nr": 1,
+    "desc": "A TouchDesigner workshop for interactive stage design.",
+    "component": <Interact />,
+    "tags": [
+      "workshop", 
+      "kollektiv 42",
+      "media"
+    ],
+  },
+  {
+    "id": 11,
+    "title": "ParkARt",
+    "slug": "parkart",
+    "year": 2023,
+    "nr": 2,
+    "desc": "An AR installation for the adARt app.",
+    "component": <Parkart />,
+    "tags": [
+      "kollektiv 42",
+      "media"
+    ]
+  },
+  {
+    "id": 12,
+    "title": "REMIX.ruhr 2023",
+    "slug": "remix-ruhr-2023",
+    "year": 2023,
+    "nr": 3,
+    "desc": "A remix submit with students.",
+    "component": <RemixRuhr23 />,
+    "tags": [
+      "music",
+      "workshop"
+    ],
+  }
 ]

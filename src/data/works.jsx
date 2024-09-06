@@ -5,6 +5,8 @@ import OrganicPatterns from "../pages/works/OrganicPatterns";
 import Schmutz from "../pages/works/Schmutz";
 import Schneerose from "../pages/works/Schneerose";
 import SecretWindow from "../pages/works/SecretWindow";
+import Arecibo from "../pages/works/Arecibo";
+import Flora0 from "../pages/works/Flora0";
 
 export const works = [
   {
@@ -110,6 +112,33 @@ export const works = [
       "composition",
       "instrumental",
       "electronics",
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Arecibo P.S.",
+    "slug": "arecibo-ps",
+    "year": 2023,
+    "nr": 1,
+    "desc": "A tribute to interstellar communication.",
+    "component": <Arecibo />,
+    "tags": [
+      "composition",
+      "electronics",
+      "media",
+      "kollektiv 42",
+    ]
+  },
+  {
+    "id": 9,
+    "title": "flora[0]",
+    "slug": "flora-0",
+    "year": 2024,
+    "nr": 1,
+    "desc": "A study of flowers in urban contexts.",
+    "component": <Flora0 />,
+    "tags": [
+      "electronics", "media", "performance", "installation", "urban biosphere ruhr"
     ]
   }
 ]
