@@ -96,28 +96,28 @@ export function WorksDetail({ element }) {
   const navigate = useNavigate();
 
   const nextWork = () => {
-    const currentWorkIndex = works.indexOf(element);
+    const currentWorkIndex = orderedWorks.indexOf(element);
     if (currentWorkIndex === -1) return;
-    const prevIndex = currentWorkIndex > 0 ? currentWorkIndex - 1 : works.length - 1
-    const url = `/works/${works[prevIndex].slug}`;
+    const prevIndex = currentWorkIndex > 0 ? currentWorkIndex - 1 : orderedWorks.length - 1
+    const url = `/works/${orderedWorks[prevIndex].slug}`;
     console.log(url)
     navigate(url);
   };
 
   const prevWork = () => {
-    const currentWorkIndex = works.indexOf(element);
+    const currentWorkIndex = orderedWorks.indexOf(element);
     if (currentWorkIndex === -1) return;
-    const nextIndex = (currentWorkIndex + 1) % works.length
-    const url = `/works/${works[nextIndex].slug}`;
+    const nextIndex = (currentWorkIndex + 1) % orderedWorks.length
+    const url = `/works/${orderedWorks[nextIndex].slug}`;
     navigate(url);
   };
 
   return (
     <>
-      <button id="btn-prev-work" onClick={prevWork} className="hover:text-red fixed top-auto bottom-auto left-10 z-10">
+      <button id="btn-prev-work" onClick={nextWork} className="hover:text-red fixed top-auto bottom-auto left-10 z-10">
         <ChevronLeft size={32} />
       </button>
-      <button id="btn-next-work" onClick={nextWork} className="hover:text-red fixed top-auto bottom-auto right-10 z-10">
+      <button id="btn-next-work" onClick={prevWork} className="hover:text-red fixed top-auto bottom-auto right-10 z-10">
         <ChevronRight size={32} />
       </button>
       {element.component}

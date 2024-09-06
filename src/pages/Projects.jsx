@@ -113,10 +113,10 @@ export function ProjectsDetail({element}) {
 
   return (
     <>
-      <button id="btn-prev-work" onClick={prevProject} className="hover:text-red fixed top-auto bottom-auto left-10 z-10">
+      <button id="btn-prev-work" onClick={nextProject} className="hover:text-red fixed top-auto bottom-auto left-10 z-10">
         <ChevronLeft size={32} />
       </button>
-      <button id="btn-next-work" onClick={nextProject} className="hover:text-red fixed top-auto bottom-auto right-10 z-10">
+      <button id="btn-next-work" onClick={prevProject} className="hover:text-red fixed top-auto bottom-auto right-10 z-10">
         <ChevronRight size={32} />
       </button>
       {component}
