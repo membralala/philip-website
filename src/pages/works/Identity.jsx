@@ -1,7 +1,7 @@
-import ID01 from "../../images/ID01.jpg";
-import ID02 from "../../images/ID02.jpg";
-import ID03 from "../../images/ID03.jpg";
-import ID04 from "../../images/ID04.jpg";
+import ID01 from "../../images/ID01.webp";
+import ID02 from "../../images/ID02.webp";
+import ID03 from "../../images/ID03.webp";
+import ID04 from "../../images/ID04.webp";
 import ImgPrev from "../../components/ImgPrev";
 import ExtLink from "../../components/ExtLink";
 

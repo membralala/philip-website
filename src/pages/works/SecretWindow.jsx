@@ -1,5 +1,5 @@
-import SW01 from "../../images/SW01.jpg";
-import SW02 from "../../images/SW02.jpg";
+import SW02 from "../../images/SW02.webp";
+import SW01 from "../../images/SW01.webp";
 import ImgPrev from "../../components/ImgPrev";
 
 export default function SecretWindow() {

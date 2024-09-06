@@ -1,7 +1,7 @@
 import Navbar from "../components/Navbar";
 import ExtLink from "../components/ExtLink";
 import ImgPrev from "../components/ImgPrev";
-import artistImg from "../images/_artist.png";
+import artistImg from "../images/_artist.webp";
 
 export default function About() {
   return (

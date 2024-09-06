@@ -1,6 +1,6 @@
 import FindMoreBtn from "../../components/FindMoreBtn";
 import ImgPrev from "../../components/ImgPrev";
-import Parkart_00 from "../../images/parkart_00.jpg"
+import Parkart_00 from "../../images/parkart_00.webp"
 
 export default function Parkart() {
   return (

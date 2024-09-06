@@ -1,9 +1,9 @@
-import S01 from "../../images/S01.jpg";
-import S02 from "../../images/S02.jpg";
-import S03 from "../../images/S03.jpg";
-import S04 from "../../images/S04.jpg";
-import S05 from "../../images/S05.jpg";
-import S06 from "../../images/S06.jpg";
+import S01 from "../../images/S01.webp";
+import S02 from "../../images/S02.webp";
+import S03 from "../../images/S03.webp";
+import S04 from "../../images/S04.webp";
+import S05 from "../../images/S05.webp";
+import S06 from "../../images/S06.webp";
 import ImgPrev from "../../components/ImgPrev";
 
 

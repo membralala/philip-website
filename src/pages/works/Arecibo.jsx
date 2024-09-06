@@ -1,13 +1,13 @@
 import ImgPrev from "../../components/ImgPrev";
 import ExtLink from "../../components/ExtLink";
-import Arecibo_01 from "../../images/Arecibo_01.jpg";
-import Arecibo_02 from "../../images/Arecibo_02.jpg";
-import Arecibo_03 from "../../images/Arecibo_03.jpg";
-import Arecibo_04 from "../../images/Arecibo_04.jpg";
-import Arecibo_05 from "../../images/Arecibo_05.jpg";
-import Arecibo_06 from "../../images/Arecibo_06.png";
-import Arecibo_07 from "../../images/Arecibo_07.jpg";
-import Arecibo_08 from "../../images/Arecibo_08.jpg";
+import Arecibo_01 from "../../images/Arecibo_01.webp";
+import Arecibo_02 from "../../images/Arecibo_02.webp";
+import Arecibo_03 from "../../images/Arecibo_03.webp";
+import Arecibo_04 from "../../images/Arecibo_04.webp";
+import Arecibo_05 from "../../images/Arecibo_05.webp";
+import Arecibo_06 from "../../images/Arecibo_06.webp";
+import Arecibo_07 from "../../images/Arecibo_07.webp";
+import Arecibo_08 from "../../images/Arecibo_08.webp";
 
 export default function Arecibo() {
   return (

@@ -1,13 +1,13 @@
 import ImgPrev from "../../components/ImgPrev";
-import Flora0_1 from "../../images/flora0_1.jpg";
-import Flora0_2 from "../../images/flora0_2.jpg";
-import Flora0_3 from "../../images/flora0_3.jpg";
-import Flora0_4 from "../../images/flora0_4.jpg";
-import Flora0_5 from "../../images/flora0_5.jpg";
-import Flora0_6 from "../../images/flora0_6.jpg";
-import Flora0_7 from "../../images/flora0_7.jpg";
-import Flora0_8 from "../../images/flora0_8.jpg";
-import Flora0_9 from "../../images/flora0_9.jpg";
+import Flora0_1 from "../../images/flora0_1.webp";
+import Flora0_2 from "../../images/flora0_2.webp";
+import Flora0_3 from "../../images/flora0_3.webp";
+import Flora0_4 from "../../images/flora0_4.webp";
+import Flora0_5 from "../../images/flora0_5.webp";
+import Flora0_6 from "../../images/flora0_6.webp";
+import Flora0_7 from "../../images/flora0_7.webp";
+import Flora0_8 from "../../images/flora0_8.webp";
+import Flora0_9 from "../../images/flora0_9.webp";
 
 export default function Flora0() {
   return (
