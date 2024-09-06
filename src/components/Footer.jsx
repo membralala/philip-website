@@ -1,12 +1,13 @@
 import GithubLogo from "../images/logos/github.png";
 import SouncloudLogo from "../images/logos/soundcloud.png";
 import VimeoLogo from "../images/logos/vimeo.png";
+import InstagramLogo from "../images/logos/instagram.png"
 
 
 export default function Footer() {
   return (
     <footer className="font-anom text-sm text-blue relative w-full bottom-12 mt-40 tracking-tighter">
-      <div className="relative w-1/4 grid grid-cols-3 justify-items-center mx-auto mb-2">
+      <div className="relative w-3/5 md:w-1/4 grid grid-cols-4 gap-4 justify-items-center mx-auto mb-2">
         <a
             href="https://github.com/membralala"
             target="_blank"
@@ -33,6 +34,15 @@ export default function Footer() {
             className=""
           >
             <img alt="" src={VimeoLogo} className="w-8" /> 
+        </a>
+        <a
+            href="https://www.instagram.com/philip_popien/"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="https://www.instagram.com/philip_popien/"
+            className=""
+          >
+            <img alt="" src={InstagramLogo} className="w-8" /> 
         </a>
       </div>
       <div className="text-center">
