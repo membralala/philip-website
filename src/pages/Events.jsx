@@ -92,8 +92,8 @@ export default function Events() {
             { 
               pastEvents.length > 0 ?
               pastEvents.map(entry => (
-                <tr key={entry.id.toString()} className="mb-8">
-                  <td className="">
+                <tr key={entry.id.toString()} className=" align-top">
+                  <td className="w-1/5">
                     { 
                       `${
                         entry.date.start.year
@@ -106,7 +106,7 @@ export default function Events() {
                     { 
                       entry.date.oneday 
                       ? "" 
-                      : `－${
+                      : ` － ${
                         entry.date.end.year
                       }/${
                         entry.date.end.month.toString().padStart(2, "0")
