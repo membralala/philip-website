@@ -11,7 +11,7 @@ import { projects } from "./data/projects";
 import About from './pages/About';
 import Code from './Code';
 import Kollektiv42 from './pages/Kollektiv42';
-import Upcoming from './pages/Upcoming';
+import Events from './pages/Events';
 import NotFound from './pages/NotFound';
 import { Works, WorksList, WorksDetail } from "./pages/Works";
 import { Projects, ProjectsList, ProjectsDetail } from './pages/Projects';
@@ -43,7 +43,7 @@ ReactDOM.render(
           <Route exact path="" element={<ProjectsList />}/>
         </Route>
         <Route path="/kollektiv-42" element={<Kollektiv42 />} />
-        <Route path="/upcoming" element={<Upcoming />}/>
+        <Route path="/events" element={<Events />}/>
         <Route exact path="/" element={<Navigate to="/about" />} />
         <Route path="*" element={<NotFound />} />
       </Routes>

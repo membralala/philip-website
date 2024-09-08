@@ -139,8 +139,8 @@ export function ProjectsDetail({element}) {
 function ProjectsYearSection({ year, projectsSel }) {
   return (
     <>
+      <div className="text-xl font-anom border-b-[1px] border-black">{year}</div>
       <li>
-        <div className="text-xl font-anom border-b-[1px] border-black">{year}</div>
         <ul className="text-blue mb-24">
           {
             projectsSel
