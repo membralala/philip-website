@@ -3,7 +3,7 @@ export const events = [
     "id": 2,
     "title": "Arecibo PS",
     "link": "",
-    "location": "Visiodrome, Wuppertal",
+    "location": "Visiodrom, Wuppertal",
     "date": {
       "oneday": true,
       "start": {
@@ -75,5 +75,41 @@ export const events = [
     "tags": [
       "electronics", "media", "urban biosphere ruhr"
     ]
-  }
+  },
+  {
+    "id": 6,
+    "title": "Arecibo PS",
+    "link": "",
+    "location": "Visiodrom, Wuppertal",
+    "date": {
+      "oneday": true,
+      "start": {
+        "year": 2024,
+        "month": 6,
+        "day": 4
+      }
+    },
+    "desc": "A multimedia composition.",
+    "tags": [
+      "concert", "kollektiv 42"
+    ],
+  },
+  {
+    "id": 7,
+    "title": "Arecibo PS",
+    "link": "",
+    "location": "Folkwang Universität der Künste, Essen",
+    "date": {
+      "oneday": true,
+      "start": {
+        "year": 2024,
+        "month": 6,
+        "day": 7
+      }
+    },
+    "desc": "A multimedia composition.",
+    "tags": [
+      "concert", "kollektiv 42"
+    ],
+  },
 ]
