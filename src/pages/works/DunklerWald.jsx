@@ -1,20 +1,10 @@
-import DW00 from "../../images/DW_00.webp";
-import DW01 from "../../images/DW_01.webp";
-import DW02 from "../../images/DW_02.webp";
-import DW03 from "../../images/DW_03.webp";
-import DW04 from "../../images/DW_04.webp";
-import DW05 from "../../images/DW_05.webp";
-import DW06 from "../../images/DW_06.webp";
-import DW07 from "../../images/DW_07.webp";
-import DW08 from "../../images/DW_08.webp";
-
 import ImgPrev from "../../components/ImgPrev";
 import ExtLink from "../../components/ExtLink";
 
 export default function DunklerWald() {
   return (
     <div>
-      <ImgPrev src={DW08} className="mb-12"/>
+      <ImgPrev src={"./DW_08.webp"} className="mb-12"/>
       <div>
         <div className="mb-12">
           <h3 className="text-red font-bold text-3xl mb-2">Dunkler Wald (2019)</h3>
@@ -48,14 +38,14 @@ export default function DunklerWald() {
         </div>
       </div>
       <div className="mb-4 grid grid-cols-3 gap-1">
-        <ImgPrev src={DW00} className="col-span-3"/>
-        <ImgPrev src={DW01}/>
-        <ImgPrev src={DW02}/>
-        <ImgPrev src={DW03}/>
-        <ImgPrev src={DW04}/>
-        <ImgPrev src={DW05}/>
-        <ImgPrev src={DW06}/>
-        <ImgPrev src={DW07} className="col-span-3"/>
+        <ImgPrev src={"./DW_00.webp"} className="col-span-3"/>
+        <ImgPrev src={"./DW_01.webp"}/>
+        <ImgPrev src={"./DW_02.webp"}/>
+        <ImgPrev src={"./DW_03.webp"}/>
+        <ImgPrev src={"./DW_04.webp"}/>
+        <ImgPrev src={"./DW_05.webp"}/>
+        <ImgPrev src={"./DW_06.webp"}/>
+        <ImgPrev src={"./DW_07.webp"} className="col-span-3"/>
       </div>
     </div>
   );

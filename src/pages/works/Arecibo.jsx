@@ -1,13 +1,5 @@
 import ImgPrev from "../../components/ImgPrev";
 import ExtLink from "../../components/ExtLink";
-import Arecibo_01 from "../../images/Arecibo_01.webp";
-import Arecibo_02 from "../../images/Arecibo_02.webp";
-import Arecibo_03 from "../../images/Arecibo_03.webp";
-import Arecibo_04 from "../../images/Arecibo_04.webp";
-import Arecibo_05 from "../../images/Arecibo_05.webp";
-import Arecibo_06 from "../../images/Arecibo_06.webp";
-import Arecibo_07 from "../../images/Arecibo_07.webp";
-import Arecibo_08 from "../../images/Arecibo_08.webp";
 
 export default function Arecibo() {
   return (
@@ -58,14 +50,14 @@ export default function Arecibo() {
           </div>
         </div>
         <div className="mb-4 grid grid-cols-6 gap-1">
-          <ImgPrev src={Arecibo_05} className="col-span-6"/>
-          <ImgPrev src={Arecibo_01} className="col-span-3"/>
-          <ImgPrev src={Arecibo_02} className="col-span-3"/>
-          <ImgPrev src={Arecibo_03} className="col-span-3"/>
-          <ImgPrev src={Arecibo_04} className="col-span-3"/>
-          <ImgPrev src={Arecibo_06} className="col-span-6"/>
-          <ImgPrev src={Arecibo_08} className="col-span-6"/>
-          <ImgPrev src={Arecibo_07} className="col-span-6"/>
+          <ImgPrev src={"./Arecibo_05.webp"} className="col-span-6"/>
+          <ImgPrev src={"./Arecibo_01.webp"} className="col-span-3"/>
+          <ImgPrev src={"./Arecibo_02.webp"} className="col-span-3"/>
+          <ImgPrev src={"./Arecibo_03.webp"} className="col-span-3"/>
+          <ImgPrev src={"./Arecibo_04.webp"} className="col-span-3"/>
+          <ImgPrev src={"./Arecibo_06.webp"} className="col-span-6"/>
+          <ImgPrev src={"./Arecibo_08.webp"} className="col-span-6"/>
+          <ImgPrev src={"./Arecibo_07.webp"} className="col-span-6"/>
         </div>
       </div>
     </div>

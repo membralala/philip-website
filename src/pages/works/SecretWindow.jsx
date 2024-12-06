@@ -1,5 +1,3 @@
-import SW02 from "../../images/SW02.webp";
-import SW01 from "../../images/SW01.webp";
 import ImgPrev from "../../components/ImgPrev";
 
 export default function SecretWindow() {
@@ -36,8 +34,8 @@ export default function SecretWindow() {
       </div>
 
       <div className="mb-4 grid grid-cols-2 gap-1">
-        <ImgPrev src={SW01}/>
-        <ImgPrev src={SW02}/>
+        <ImgPrev src={"./SW01.webp"}/>
+        <ImgPrev src={"./SW02.webp"}/>
       </div>
     </div>
   )

@@ -1,12 +1,4 @@
-import S01 from "../../images/S01.webp";
-import S02 from "../../images/S02.webp";
-import S03 from "../../images/S03.webp";
-import S04 from "../../images/S04.webp";
-import S05 from "../../images/S05.webp";
-import S06 from "../../images/S06.webp";
 import ImgPrev from "../../components/ImgPrev";
-
-
 
 export default function Schmutz() {
   return (
@@ -47,12 +39,12 @@ export default function Schmutz() {
       </div>
 
       <div className="mb-4 grid grid-cols-2 gap-1">
-        <ImgPrev src={S01} className="col-span-2"/>
-        <ImgPrev src={S02}/>
-        <ImgPrev src={S03}/>
-        <ImgPrev src={S04}/>
-        <ImgPrev src={S05}/>
-        <ImgPrev src={S06} className="col-span-2"/>
+        <ImgPrev src={"./S01.webp"} className="col-span-2"/>
+        <ImgPrev src={"./S02.webp"}/>
+        <ImgPrev src={"./S03.webp"}/>
+        <ImgPrev src={"./S04.webp"}/>
+        <ImgPrev src={"./S05.webp"}/>
+        <ImgPrev src={"./S06.webp"} className="col-span-2"/>
       </div>
     </div>
   )

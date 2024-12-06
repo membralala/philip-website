@@ -1,13 +1,12 @@
 import FindMoreBtn from "../../components/FindMoreBtn";
 import ImgPrev from "../../components/ImgPrev";
-import Parkart_00 from "../../images/parkart_00.webp"
 
 export default function Parkart() {
   return (
     <>
       <div>
         <div className="mb-12">
-          <ImgPrev src={Parkart_00} className="w-3/4 mx-auto"/>
+          <ImgPrev src={"./parkart_00.webp"} className="w-3/4 mx-auto"/>
         </div>
         <div className="mb-12">
           <h3 className="text-red text-3xl font-bold mb-2">ParkARt</h3>

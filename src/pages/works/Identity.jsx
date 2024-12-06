@@ -1,7 +1,3 @@
-import ID01 from "../../images/ID01.webp";
-import ID02 from "../../images/ID02.webp";
-import ID03 from "../../images/ID03.webp";
-import ID04 from "../../images/ID04.webp";
 import ImgPrev from "../../components/ImgPrev";
 import ExtLink from "../../components/ExtLink";
 
@@ -47,10 +43,10 @@ export default function Identity() {
       </div>
 
       <div className="mb-4 grid grid-cols-2 gap-1">
-        <ImgPrev src={ID03}/>
-        <ImgPrev src={ID04}/>
-        <ImgPrev src={ID01} className="col-span-2"/>
-        <ImgPrev src={ID02} className="col-span-2"/>
+        <ImgPrev src={"./ID03.webp"}/>
+        <ImgPrev src={"./ID04.webp"}/>
+        <ImgPrev src={"./ID01.webp"} className="col-span-2"/>
+        <ImgPrev src={"./ID02.webp"} className="col-span-2"/>
       </div>
     </div>
   )

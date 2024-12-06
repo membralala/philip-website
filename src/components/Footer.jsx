@@ -1,7 +1,7 @@
-import GithubLogo from "../images/logos/github.png";
-import SouncloudLogo from "../images/logos/soundcloud.png";
-import VimeoLogo from "../images/logos/vimeo.png";
-import InstagramLogo from "../images/logos/instagram.png"
+import GithubLogo from "../logos/github.png";
+import SouncloudLogo from "../logos/soundcloud.png";
+import VimeoLogo from "../logos/vimeo.png";
+import InstagramLogo from "../logos/instagram.png"
 
 
 export default function Footer() {

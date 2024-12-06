@@ -1,11 +1,3 @@
-import AB01 from "../../images/AB_01.webp"; 
-import AB02 from "../../images/AB_02.webp"; 
-import AB03 from "../../images/AB_03.webp"; 
-import AB04 from "../../images/AB_04.webp"; 
-import AB05 from "../../images/AB_05.webp"; 
-import AB06 from "../../images/AB_06.webp"; 
-import AB07 from "../../images/AB_07.webp"; 
-import AB08 from "../../images/AB_08.webp"; 
 import ImgPrev from "../../components/ImgPrev";
 import ExtLink from "../../components/ExtLink";
 
@@ -55,14 +47,14 @@ export default function AliceBob() {
         </div>
       </div>
       <div className="mb-4 grid grid-cols-6 gap-1">
-        <ImgPrev src={AB01} className="col-span-6"/>
-        <ImgPrev src={AB05} className="col-span-6"/>
-        <ImgPrev src={AB06} className="col-span-2"/>
-        <ImgPrev src={AB08} className="col-span-2"/>
-        <ImgPrev src={AB07} className="col-span-2"/>
-        <ImgPrev src={AB04} className="col-span-6"/>
-        <ImgPrev src={AB02} className="col-span-3"/>
-        <ImgPrev src={AB03} className="col-span-3"/>
+        <ImgPrev src={"./AB_01.webp"} className="col-span-6"/>
+        <ImgPrev src={"./AB_05.webp"} className="col-span-6"/>
+        <ImgPrev src={"./AB_06.webp"} className="col-span-2"/>
+        <ImgPrev src={"./AB_08.webp"} className="col-span-2"/>
+        <ImgPrev src={"./AB_07.webp"} className="col-span-2"/>
+        <ImgPrev src={"./AB_04.webp"} className="col-span-6"/>
+        <ImgPrev src={"./AB_02.webp"} className="col-span-3"/>
+        <ImgPrev src={"./AB_03.webp"} className="col-span-3"/>
       </div>
     </div>
   )

@@ -1,20 +1,11 @@
 import ImgPrev from "../../components/ImgPrev";
-import Flora0_1 from "../../images/flora0_1.webp";
-import Flora0_2 from "../../images/flora0_2.webp";
-import Flora0_3 from "../../images/flora0_3.webp";
-import Flora0_4 from "../../images/flora0_4.webp";
-import Flora0_5 from "../../images/flora0_5.webp";
-import Flora0_6 from "../../images/flora0_6.webp";
-import Flora0_7 from "../../images/flora0_7.webp";
-import Flora0_8 from "../../images/flora0_8.webp";
-import Flora0_9 from "../../images/flora0_9.webp";
 
 export default function Flora0() {
   return (
     <div>
       <div>
         <div className="mb-12">
-          <ImgPrev src={Flora0_2} className="w-3/4 mx-auto"/>
+          <ImgPrev src={"./flora0_2.webp"} className="w-3/4 mx-auto"/>
         </div>
 
         <div>
@@ -48,14 +39,14 @@ export default function Flora0() {
           </div>
         </div>
         <div className="mb-4 grid grid-cols-6 gap-1">
-          <ImgPrev src={Flora0_4} className="col-span-3"/>
-          <ImgPrev src={Flora0_3} className="col-span-3"/>
-          <ImgPrev src={Flora0_6} className="col-span-2"/>
-          <ImgPrev src={Flora0_5} className="col-span-2"/>
-          <ImgPrev src={Flora0_1} className="col-span-2"/>
-          <ImgPrev src={Flora0_7} className="col-span-6"/>
-          <ImgPrev src={Flora0_8} className="col-span-3"/>
-          <ImgPrev src={Flora0_9} className="col-span-3"/>
+          <ImgPrev src={"./flora0_4.webp"} className="col-span-3"/>
+          <ImgPrev src={"./flora0_3.webp"} className="col-span-3"/>
+          <ImgPrev src={"./flora0_6.webp"} className="col-span-2"/>
+          <ImgPrev src={"./flora0_5.webp"} className="col-span-2"/>
+          <ImgPrev src={"./flora0_1.webp"} className="col-span-2"/>
+          <ImgPrev src={"./flora0_7.webp"} className="col-span-6"/>
+          <ImgPrev src={"./flora0_8.webp"} className="col-span-3"/>
+          <ImgPrev src={"./flora0_9.webp"} className="col-span-3"/>
         </div>
       </div>
     </div>

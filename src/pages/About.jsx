@@ -1,14 +1,13 @@
 import Navbar from "../components/Navbar";
 import ExtLink from "../components/ExtLink";
 import ImgPrev from "../components/ImgPrev";
-import artistImg from "../images/_artist.webp";
 
 export default function About() {
   return (
     <>
       <Navbar title="About" />
       <div className="mb-8 w-4/5 mx-auto">
-        <ImgPrev src={artistImg} />
+        <ImgPrev src={"./_artist.webp"} />
       </div>
       <p className="mb-4 text-content">
         Philip Popien is a german based composer and a creative coder with a deep interest in 
