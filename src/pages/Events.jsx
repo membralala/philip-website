@@ -12,10 +12,11 @@ orderedEvents.sort(
 
 const isPastEvent = (event) => {
   const date = new Date();
+  console.log(date.getFullYear(), date.getMonth(), date.getDate());
   const eventDate = event.date.oneday ? event.date.start : event.date.end;
   return date.getFullYear() > eventDate.year || 
-    (date.getFullYear() === eventDate.year && date.getMonth() > eventDate.month) ||
-    (date.getFullYear() === eventDate.year && date.getMonth() === eventDate.month && date.getDate() > eventDate.day)
+    (date.getFullYear() === eventDate.year && date.getMonth() + 1 > eventDate.month) ||
+    (date.getFullYear() === eventDate.year && date.getMonth() + 1 === eventDate.month && date.getDate() > eventDate.day)
 }
 
 
